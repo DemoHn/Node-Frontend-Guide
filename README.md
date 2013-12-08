@@ -14,7 +14,7 @@
 
 - 安装
 
-请到 (Node.js官网)[http://nodejs.org/]上下载 Windows Installer(.msi)文件[点"Downloads"按钮]。
+请到 [Node.js官网](http://nodejs.org/) 上下载 Windows Installer(.msi)文件[点"Downloads"按钮]。
 
 下好了以后并解压，应该会有个node.exe文件的。双击运行，如果来个终端的话应该就成功了～～具体的还是查一下教程吧（窝用linux真不知道windows下是怎么样的~）
 
@@ -26,7 +26,7 @@
 
 ## Hello,world!
 
-** Mission 1 ** 请按照官网的指示把官网上的第一段示例代码弄到本地，并运行node.然后再在浏览器上输入`http://localhost:1337` ,查看效果。
+**Mission 1** 请按照官网的指示把官网上的第一段示例代码弄到本地，并运行node.然后再在浏览器上输入`http://localhost:1337` ,查看效果。
 
 
 ## Node.js API
@@ -34,7 +34,7 @@
 Node.js 提供了基础的API（也可以理解为函数库），用来进行服务器端的一些基本操作。
 好好熟悉一下吧。这是Node.js最靠谱的资料了。
 
-** Mission 2 ** 请点开Node.js的[API](http://nodejs.org/api/).随便点开一个链接，看看它都在讲什么。
+**Mission 2** 请点开Node.js的[API](http://nodejs.org/api/).随便点开一个链接，看看它都在讲什么。
 
 
 ## HTTP
@@ -49,16 +49,16 @@ Node.js 提供了基础的API（也可以理解为函数库），用来进行服
 
 3. 返回的信息经过浏览器一处理，就是窝们所看到的网页了～～
 
-** Mission 4 ** 请在浏览器上打开刚刚运行的网页（See Mission 1）。然后用控制台(不知道怎么开？请右键->查看元素)的 "network" 选项查看一下到底发生了什么。如果你看到了一个 "GET" 什么的就对了。
+**Mission 4** 请在浏览器上打开刚刚运行的网页（See Mission 1）。然后用控制台(不知道怎么开？请右键->查看元素)的 "network" 选项查看一下到底发生了什么。如果你看到了一个 "GET" 什么的就对了。
 
-** Mission 5 ** 试着在Mission 1的源代码下加一句：
+ **Mission 5** 试着在Mission 1的源代码下加一句：
 ```
 console.log(res);
 ```
 重新运行一下node，观察输出来的都是什么东西。
 （这玩意儿就是作为服务器的node返回的数据.）
 
-** Mission 6 ** 试着让浏览器返回大字号的"Hello,Node!"。
+**Mission 6** 试着让浏览器返回大字号的"Hello,Node!"。
 
 - GET & POST 请求
 
